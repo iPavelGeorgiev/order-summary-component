@@ -1,0 +1,22 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavel-frontend-mentor-projects/order-summary-component.git"
+  },
+  "author": "Pavel Georgiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavel-frontend-mentor-projects/order-summary-component/issues"
+  },
+  "homepage": "https://github.com/pavel-frontend-mentor-projects/order-summary-component#readme",
+  "devDependencies": {
+    "sass": "^1.49.0"
+  }
+}
