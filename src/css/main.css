@@ -223,4 +223,16 @@ body {
   }
 }
 
+.attribution {
+  font-size: 12px;
+  width: fit-content;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.attribution a {
+  color: #3e52a3;
+}
+
 /*# sourceMappingURL=main.css.map */
