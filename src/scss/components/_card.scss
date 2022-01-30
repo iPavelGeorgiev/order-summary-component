@@ -1,0 +1,64 @@
+@use '../abstracts/variables' as vars;
+@use '../abstracts/colors';
+@use '../abstracts/breakpoints' as *;
+
+.card {
+  max-width: vars.$container-max-width;
+  background-color: colors.$white;
+  border-radius: 1.5rem;
+  margin: 0 2.3rem;
+  box-shadow: 0px 20px 40px #c7cff2;
+  overflow: hidden;
+
+  &-img {
+    width: 100%;
+    height: auto;
+  }
+
+  &-content {
+    text-align: center;
+    padding: 3.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    @include breakpoint('mobile', 'max') {
+      padding: 2.7rem;
+    }
+  }
+
+  &-title {
+    color: colors.$black;
+    font-size: 2.6rem;
+    font-weight: vars.$font-weight-extra-bold;
+  }
+
+  &-plan {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: colors.$very-pale-blue;
+    border-radius: 1.3rem;
+
+    &-icon {
+      width: 4.4rem;
+      height: auto;
+    }
+
+    &-title {
+      color: colors.$black;
+      font-weight: vars.$font-weight-extra-bold;
+      font-size: 1.5rem;
+    }
+
+    &-pricing {
+      font-size: 1.5rem;
+    }
+
+    @include breakpoint('mobile', 'max') {
+      padding: 1.5rem;
+    }
+  }
+}
