@@ -111,7 +111,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #7280a7;
   height: 100vh;
   background: #e0e8ff url("../img/pattern-background-desktop.svg") top/contain no-repeat;
@@ -133,12 +133,13 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   transition: all 0.2s;
+  font-family: inherit;
   cursor: pointer;
 }
 
 .btn-primary {
   background-color: #3829e0;
-  border-radius: 1rem;
+  border-radius: 1.2rem;
   padding: 1.6rem 2.4rem;
   color: #fff;
   box-shadow: 0px 14px 25px 0px rgba(56, 41, 224, 0.3);
@@ -151,6 +152,7 @@ body {
   background: none;
   padding: 0.6rem 1.2rem;
   color: #7280a7;
+  font-weight: 900;
 }
 .btn-ghost:hover {
   color: #000;
@@ -161,16 +163,16 @@ body {
   background: none;
   text-decoration: underline;
   color: #3829e0;
-  font-weight: 900;
+  font-size: 1.4rem;
 }
 .btn-link:hover {
   color: #766cf1;
 }
 
 .card {
-  max-width: 40rem;
+  max-width: 45rem;
   background-color: #fff;
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   margin: 0 2.3rem;
   box-shadow: 0px 20px 40px #c7cff2;
   overflow: hidden;
@@ -181,45 +183,53 @@ body {
 }
 .card-content {
   text-align: center;
-  padding: 3.7rem;
+  padding: 4rem 4.7rem;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
-}
-@media (max-width: 449px) {
-  .card-content {
-    padding: 2.7rem;
-  }
+  gap: 2.3rem;
 }
 .card-title {
   color: #000;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   font-weight: 900;
 }
 .card-plan {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.6rem;
   width: 100%;
-  padding: 2rem;
+  padding: 2.2rem;
   background-color: #f5f7ff;
-  border-radius: 1.3rem;
+  border-radius: 1.2rem;
 }
 .card-plan-icon {
-  width: 4.4rem;
+  width: 4.8rem;
   height: auto;
 }
 .card-plan-title {
   color: #000;
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
 }
 .card-plan-pricing {
-  font-size: 1.5rem;
+  font-size: 1.65rem;
 }
 @media (max-width: 449px) {
+  .card-content {
+    padding: 1.9rem 2.7rem;
+    gap: 2.1rem;
+  }
+  .card-title {
+    font-size: 2.4rem;
+  }
   .card-plan {
     padding: 1.5rem;
+  }
+  .card-plan-title {
+    font-size: 1.5rem;
+  }
+  .card-plan-pricing {
+    font-size: 1.5rem;
   }
 }
 

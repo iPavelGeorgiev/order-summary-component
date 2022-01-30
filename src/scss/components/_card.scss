@@ -5,7 +5,7 @@
 .card {
   max-width: vars.$container-max-width;
   background-color: colors.$white;
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   margin: 0 2.3rem;
   box-shadow: 0px 20px 40px #c7cff2;
   overflow: hidden;
@@ -17,48 +17,63 @@
 
   &-content {
     text-align: center;
-    padding: 3.7rem;
+    padding: 4rem 4.7rem;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
-
-    @include breakpoint('mobile', 'max') {
-      padding: 2.7rem;
-    }
+    gap: 2.3rem;
   }
 
   &-title {
     color: colors.$black;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     font-weight: vars.$font-weight-extra-bold;
   }
 
   &-plan {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.6rem;
     width: 100%;
-    padding: 2rem;
+    padding: 2.2rem;
     background-color: colors.$very-pale-blue;
-    border-radius: 1.3rem;
+    border-radius: 1.2rem;
 
     &-icon {
-      width: 4.4rem;
+      width: 4.8rem;
       height: auto;
     }
 
     &-title {
       color: colors.$black;
       font-weight: vars.$font-weight-extra-bold;
-      font-size: 1.5rem;
+      font-size: 1.65rem;
     }
 
     &-pricing {
-      font-size: 1.5rem;
+      font-size: 1.65rem;
+    }
+  }
+
+  @include breakpoint('mobile', 'max') {
+    &-content {
+      padding: 1.9rem 2.7rem;
+      gap: 2.1rem;
     }
 
-    @include breakpoint('mobile', 'max') {
+    &-title {
+      font-size: 2.4rem;
+    }
+
+    &-plan {
       padding: 1.5rem;
+
+      &-title {
+        font-size: 1.5rem;
+      }
+
+      &-pricing {
+        font-size: 1.5rem;
+      }
     }
   }
 }
