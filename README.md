@@ -1,30 +1,48 @@
-# Frontend Mentor - Order summary component
+<img src="./design/desktop-preview.jpg"></img>
 
-This is my solution to the [Order summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor is a site where people can come to improve their front-end coding skills by building projects in a real-life workflow.
+<h1 align="center">Order summary component</h1>
 
-## Table of contents
+<div align="center">
+  <h3>
+    <a href="https://pavel-frontend-mentor-projects.github.io/order-summary-component/" color="white">
+      Live
+    </a>
+    <span> | </span>
+    <a href="https://www.frontendmentor.io/solutions/order-summary-component-m1KK9bOnj">
+      Solution
+    </a>
+   <span> | </span>
+    <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">
+      Challenge
+    </a>
+  </h3>
+</div>
+<div align="center">
+   Solution for a challenge from <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>
+</div>
+<details align="center">
+  <summary></summary>
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+  Frontend Mentor is a site where people can come to improve their front-end coding skills by building projects in a real-life workflow.
+</details>
+
+<br>
+<br>
+<br>
 
 ## Overview
 
 ### The challenge
 
-The challenge is to build out this card component and get it looking as close to the design as possible.
-
+<p>The challenge is to build out this order summary component and get it looking as close to the design as possible.
+<br>
+<br>
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+- View the optimal layout depending on their device's screen size.
+- See hover states for all interactive elements on the page.
 
-### Screenshot
+### Screenshots
 
 <details>
   <summary>Desktop design</summary>
@@ -44,14 +62,9 @@ Users should be able to:
   ![Screenshot of mobile view](design/mobile-design.jpg)
 </details>
 
-### Links
-
-- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-m1KK9bOnj)
-- [Live Site URL](https://pavel-frontend-mentor-projects.github.io/order-summary-component/)
-
 ## My process
 
-### Built with
+### Built with 
 
 - Semantic HTML5 markup
 - SCSS
@@ -62,7 +75,10 @@ Users should be able to:
 
 By doing this challenge, I gained a better understanding of how to write clean and accessible code. I also had the opportunity to practice the fundamentals of SCSS, following the DRY principles.
 
-## Author
+### Useful resources
 
-- Frontend Mentor - [@iPavelGeorgiev](https://www.frontendmentor.io/profile/iPavelGeorgiev)
-- LinkedIn - [@iPavelGeorgiev](https://www.linkedin.com/in/ipavelgeorgiev/)
+1. <a href="https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi">Perfect Pixel</a> - Awesome Chrome extension that helps you to match the pixels of the provided design.
+
+## Acknowledgments
+
+A big thank you to anyone providing feedback on my <a href="https://www.frontendmentor.io/solutions/order-summary-component-m1KK9bOnj">solution</a>. It definitely helps to find new ways to code and find easier solutions! 
