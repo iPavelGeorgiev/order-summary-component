@@ -39,7 +39,7 @@ I don't have access to the premium Figma/Sketch files, so the design is not pixe
 
 ### Links
 
-- [Live Site URL](https://pavel-frontend-mentor.github.io/order-summary-component/)
+- [Live Site URL](https://ipavelgeorgiev.github.io/order-summary-component/)
 - [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-m1KK9bOnj)
 
 ## My process
@@ -54,6 +54,32 @@ I don't have access to the premium Figma/Sketch files, so the design is not pixe
 ### What I learned
 
 By doing this challenge, I gained a better understanding of how to write clean and accessible code. I also had the opportunity to practice the fundamentals of SCSS, following the DRY principles.
+
+### Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/iPavelGeorgiev/order-summary-component.git
+```
+
+Go to the project directory
+
+```bash
+  cd order-summary-component
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
 
 ## Author
 
